@@ -1,0 +1,23 @@
+package ex03;
+
+public class StrategyTest {
+
+	public static void main(String[] args) {
+		
+		Strategy strategy = null;
+		Soldier rambo = new Soldier();
+		
+		// 총을 람보에게 전달해서 전투를 수행하게 만드는 부분
+	    strategy = new StrategyGun(); // "탕, 타당, 타다당"
+	    rambo.runContext(strategy);
+	    
+	    // 검을 람보에게 전달해서 전투를 수행하게 만드는 부분
+	    strategy = new StrategySword(); // "챙, 채챙, 채채챙"
+	    rambo.runContext(strategy);
+	    
+	    // 활을 람보에게 전달해서 전투를 수행하게 만드는 부분
+	    strategy = new StrategyBow(); // "슝, 슈슝, 슈슈슝"
+	    rambo.runContext(strategy);
+	}
+
+}

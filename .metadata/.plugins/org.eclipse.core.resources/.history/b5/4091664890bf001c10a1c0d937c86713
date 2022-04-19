@@ -1,0 +1,14 @@
+package ex03;
+
+public class StrategyTest {
+
+	public static void main(String[] args) {
+		
+		Strategy strategy = null;
+		Soldier rambo = new Soldier();
+		
+	    strategy = new StrategyGun();
+	    rambo.runContext(strategy);
+	}
+
+}

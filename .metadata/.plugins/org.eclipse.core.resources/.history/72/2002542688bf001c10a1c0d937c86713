@@ -1,0 +1,11 @@
+package ex02;
+
+public class Book {
+	private String BookName;
+	private String author;
+	
+	// 출력메소드
+	public void showBookInfo() {
+		System.out.println(BookName + " " + author);
+	}
+}

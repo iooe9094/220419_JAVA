@@ -1,0 +1,15 @@
+package ex03;
+
+public class StrategyTest {
+
+	public static void main(String[] args) {
+		
+		Strategy strategy = null;
+		Soldier rambo = new Soldier();
+		
+		// 총을 람보에게 전달해서 전투를 수행하게 만드는 부분
+	    strategy = new StrategyGun();
+	    rambo.runContext(strategy);
+	}
+
+}

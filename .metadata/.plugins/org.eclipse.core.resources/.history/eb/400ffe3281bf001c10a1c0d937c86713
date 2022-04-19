@@ -1,0 +1,16 @@
+package ex01;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		Student lee = new Student(1001, "Lee");
+		Student kim = new Student(2001, "Kim");
+		
+		// lee 과목, 점수를 추가
+		lee.addSuject("국어", 100);
+		lee.addSuject("수학", 50);
+		
+		// kim 과목 점수 추가
+	}
+
+}

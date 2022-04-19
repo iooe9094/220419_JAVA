@@ -1,0 +1,22 @@
+package ex01;
+
+import java.util.ArrayList;
+
+public class Student {
+	int StudentID;
+	String StudentName;
+	ArrayList<Subject> subjectList; // ArrayList는 command+shift+o로 import
+	
+	public Student(int studentID, String studentName) {
+		StudentID = studentID;
+		this.StudentName = studentName;
+	}
+	
+	public void addSuject(String x, int y) {
+		
+	}
+	
+	public void showStudentInfo() {
+		System.out.println();
+	}
+}

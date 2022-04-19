@@ -1,0 +1,10 @@
+package ex01;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		Student lee = new Student(1001, "Lee");
+		Student kim = new Student(2001, "Kim");
+	}
+
+}

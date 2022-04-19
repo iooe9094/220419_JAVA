@@ -1,0 +1,5 @@
+package Compute;
+
+public abstract class Computer {
+
+}

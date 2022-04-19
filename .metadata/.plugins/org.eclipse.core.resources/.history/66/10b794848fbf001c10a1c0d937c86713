@@ -1,0 +1,9 @@
+package ex03;
+
+public class Soldier {
+	
+	// 같은 패키지 내에서는 공유 가능하므로
+	void runContext(Strategy strategy) {
+		System.out.println("전투 시작");
+	}
+}

@@ -1,0 +1,11 @@
+package ex02;
+
+public class BookTest {
+
+	public static void main(String[] args) {
+		// 배열의 선언 : 공간만 생성함
+		Book[] book = new Book[5];
+
+	}
+
+}

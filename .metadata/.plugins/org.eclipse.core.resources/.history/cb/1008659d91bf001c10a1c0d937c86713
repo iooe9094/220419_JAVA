@@ -1,0 +1,11 @@
+package ex03;
+
+public class StrategySword implements Strategy {
+
+	@Override
+	public void runStrategy() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

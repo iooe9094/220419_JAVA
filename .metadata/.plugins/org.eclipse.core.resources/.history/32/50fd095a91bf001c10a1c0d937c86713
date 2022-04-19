@@ -1,0 +1,29 @@
+package ex03;
+
+public class Soldier implements Strategy {
+
+	@Override
+	public void runStrategy() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void StrategyGun() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void StrategySword() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void StrategyBow() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

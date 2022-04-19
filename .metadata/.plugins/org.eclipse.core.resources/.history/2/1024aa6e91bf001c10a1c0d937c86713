@@ -1,0 +1,33 @@
+package ex03;
+
+public class Soldier implements Strategy {
+	
+	void runContext(Strategy strategy) {
+		System.out.println("전투 시작");
+		strategy.runStrategy();
+		System.out.println("전투 종료");
+	}
+
+	@Override
+	public void runStrategy() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void StrategyGun() {
+		System.out.println("탕, 타탕, 타타탕");
+	}
+
+	@Override
+	public void StrategySword() {
+		System.out.println("챙, 채챙, 채채챙");
+
+	}
+
+	@Override
+	public void StrategyBow() {
+	    System.out.println("슝, 쇄액, 최종병기");
+	}
+
+}

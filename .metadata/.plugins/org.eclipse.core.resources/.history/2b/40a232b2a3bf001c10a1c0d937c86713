@@ -1,0 +1,14 @@
+package Template;
+
+public abstract class Car {
+	
+	public abstract void drive();
+	public abstract void stop();
+	
+	// 1. 차 운행 시작 메소드
+	public void startCar() {
+		System.out.println("시동을 켭니다.");
+	}
+	
+	// 4. 차 시동 끄기
+}
